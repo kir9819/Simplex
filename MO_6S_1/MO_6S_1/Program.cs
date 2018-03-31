@@ -579,7 +579,7 @@ namespace MO_6S_1
                                 }
                                 else
                                 {
-                                    res[int.Parse(l.identity.Substring(1).ToString())] = l.v;
+                                    res[int.Parse(l.identity.Substring(1).ToString())-1] = l.v;
                                 }
                             }
                             foreach(Pair r in res)
